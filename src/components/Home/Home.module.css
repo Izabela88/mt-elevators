@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 .home {
   height: 100vh;
   width: 100vw;
   position: relative;
+  background-color: rgb(0 0 0 / 5%);
 }
 
 .image {
-  position: fixed;
-  top: 0;
-  left: 0;
   min-width: 100%;
   min-height: 100%;
 }
@@ -18,40 +21,60 @@
 
 .heading {
   position: absolute;
-  height: 546px;
-  width: 700px;
-  bottom: 34%;
-  left: 6%;
+  height: 430px;
+  width: 650px;
+  bottom: 30%;
+  left: 48%;
+  text-align: left;
 }
 
 .heading1 {
   position: absolute;
-  color: var(--color-primary-400);
-  text-align: center;
-  font-size: var(--size-6);
-  bottom: 347px;
-  left: 239px;
+  color: var(--color-primary-800);
+  font-size: 30px;
+  bottom: 268px;
   font-family: 'DM Sans', sans-serif;
 }
 
 .heading2 {
   position: absolute;
   color: var(--color-primary-50);
-  font-size: var(--size-10);
-  bottom: 100px;
+  font-size: 58px;
+  bottom: 38px;
   font-family: 'DM Sans', sans-serif;
-  line-height: 53px;
+  line-height: 40px;
+  left: 1px;
+}
+
+.heading2 h2 span {
+  color: var(--color-primary-800);
+}
+
+.heading2 h3 {
+  font-size: 47px;
+  color: var(--color-primary-400);
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
 }
 
 .text {
   position: absolute;
-  color: var(--color-primary-50);
-  bottom: 33%;
-  font-size: var(--size-4);
-  left: 6%;
-  line-height: var(--size-6);
-  font-weight: 500;
-  padding: var(--size-3);
+  bottom: -4%;
+  font-size: 25px;
+  line-height: 26px;
   text-transform: uppercase;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  color: var(--color-primary-50);
+  text-align: center;
+  left: 4px;
+}
+
+.btn {
+  margin-bottom: -30px;
+  margin-top: 30px;
+}
+
+.btn a {
+  color: #fff;
 }
