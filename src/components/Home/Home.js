@@ -33,7 +33,7 @@ export default function HomePage() {
           </div>
           <div className={styles.text}>
             <p>We will take you to a higher level</p>
-            <div className={styles.btn}>
+            <div className={`${styles.btn} ${styles.btnanm}`}>
               <a href='/'>More</a>
             </div>
           </div>
