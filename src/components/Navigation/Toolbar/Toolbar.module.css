@@ -25,6 +25,10 @@
   height: 70%;
 }
 
+.logo {
+  height: 100px;
+}
+
 @media (max-width: 1024px) {
   .desktop__only {
     display: none;
