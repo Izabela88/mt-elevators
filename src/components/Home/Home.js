@@ -27,8 +27,8 @@ export default function HomePage() {
             </h2>
 
             <h3>
-              Plan <br /> Installation <br /> Modenization <br /> Service <br />{' '}
-              Repair of Elevators
+              Plan <br /> Installation <br /> Modernization <br /> Service{' '}
+              <br /> Repair of Elevators
             </h3>
           </div>
           <div className={styles.text}>
