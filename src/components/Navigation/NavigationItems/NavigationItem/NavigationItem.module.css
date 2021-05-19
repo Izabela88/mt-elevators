@@ -7,7 +7,7 @@
   }
 
   .navigation__item a {
-    color: #181617;
+    color: var(--color-primary-400);
     text-decoration: none;
     width: 100%;
     font-weight: bold;
@@ -16,7 +16,7 @@
   .navigation__item a:hover,
   .navigation__item a:active,
   .navigation__item a.active {
-    color: #fff;
+    color: var(--color-primary-50);
   }
 }
 
@@ -29,16 +29,18 @@
   }
 
   .navigation__item a {
-    color: #181617;
+    color: var(--color-primary-400);
     height: 100%;
     padding: 10px 20px;
     font-weight: bold;
     transition-duration: 0.2s;
+    letter-spacing: 3px;
   }
 
   .navigation__item a:hover,
   .navigation__item a:active,
   .navigation__item a.active {
-    color: #fff;
+    color: var(--color-primary-50);
+    border-bottom: 1px solid var(--color-primary-50);
   }
 }
