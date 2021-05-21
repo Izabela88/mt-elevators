@@ -1,7 +1,11 @@
 .card {
-  height: 400px;
-  width: 270px;
+  height: 300px;
+  width: 300px;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card__icon {
@@ -18,4 +22,8 @@
 .card__icon img {
   width: 60%;
   height: 60%;
+}
+
+.card__text {
+  text-align: center;
 }
