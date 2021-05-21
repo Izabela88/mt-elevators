@@ -1,0 +1,21 @@
+.card {
+  height: 400px;
+  width: 270px;
+  border: 1px solid black;
+}
+
+.card__icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: var(--color-primary-400);
+}
+
+.card__icon img {
+  width: 60%;
+  height: 60%;
+}
