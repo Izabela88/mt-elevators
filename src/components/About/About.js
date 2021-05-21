@@ -1,10 +1,34 @@
 import React from 'react';
 import styles from './About.module.css';
+import image from '../../assets/images/man.png';
+import image1 from '../../assets/images/img2.jpg';
 
 export default function AboutPage() {
   return (
-    <h1 className={styles.about} id='about'>
-      About
-    </h1>
+    <section className={styles.about} id='about'>
+      <div className={styles.container}>
+        <div className={styles.box}>
+          <img src={image1} alt='' />
+        </div>
+        <div className={styles.man__image}>
+          <img src={image} alt='A Man' />
+        </div>
+        <div className={styles.about__text}>
+          <h1>A few words about us</h1>
+          <p>
+            We were founded in 2020. <br /> Our company is distinguished by a
+            wide range of services, from design to installation. <br />
+            <span>
+              {' '}
+              We are a member of the NICEIC approved contractor and the
+              SafeContractor.
+            </span>{' '}
+            <br /> Our company is made up of people full of passion and
+            willingness to face new challenges. <br /> Fell free to check our
+            services!
+          </p>
+        </div>
+      </div>
+    </section>
   );
 }
