@@ -111,7 +111,7 @@ const Cards = () => {
 
   return (
     <div className='card__carousel'>
-      <button onClick={handleCardTransition}>></button>
+      <button onClick={handleCardTransition}>›</button>
 
       {cardItems.map((card, index) => (
         <div
