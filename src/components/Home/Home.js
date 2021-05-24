@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { Link } from 'react-scroll';
 import styles from './Home.module.css';
 import hero from '../../assets/images/hero.jpg';
 import LazyHero from 'react-lazy-hero';
 
-export default function HomePage() {
+export default function HomePage(props) {
   return (
     <section className={styles.home} id='home'>
       <LazyHero
@@ -33,9 +33,9 @@ export default function HomePage() {
           </div>
           <div className={styles.text}>
             <p>We will take you to a higher level</p>
-            <div className={`${styles.btn} ${styles.btnanm}`}>
-              <a href='/'>More</a>
-            </div>
+            <Link smooth='easeInOutCubic' duration={1500} to='about'>
+              <div className={`${styles.btn} ${styles.btnanm}`}>More</div>
+            </Link>
           </div>
         </div>
       </LazyHero>

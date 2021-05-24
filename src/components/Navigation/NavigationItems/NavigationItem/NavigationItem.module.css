@@ -22,10 +22,11 @@
 
 @media (min-width: 500px) {
   .navigation__item {
-    margin: 0 20px;
+    margin: 0 30px;
     display: flex;
     width: auto;
     align-items: center;
+    font-size: 18px;
   }
 
   .navigation__item a {
@@ -41,7 +42,5 @@
   .navigation__item a:active,
   .navigation__item a.active {
     color: var(--color-primary-300);
-    border-bottom: 2px solid var(--color-primary-300);
-    border-top: 2px solid var(--color-primary-300);
   }
 }

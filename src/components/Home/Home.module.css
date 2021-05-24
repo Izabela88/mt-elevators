@@ -75,9 +75,6 @@
   cursor: pointer;
   outline: none;
   font-size: 18px;
-}
-
-.btn a {
   color: #fff;
   letter-spacing: 10px;
 }
