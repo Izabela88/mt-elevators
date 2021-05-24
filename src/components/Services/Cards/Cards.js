@@ -59,6 +59,7 @@ const cardItems = [
   },
 ];
 
+// use a function determineClasses that takes our state index data and the current card index to determine which CSS class should be applied to each card at any given time By using  indexes state data,  can easily determine which card was shown previously, which should be active, and which one is up next just by comparing the corresponding index values against the cards index
 function determineClasses(indexes, cardIndex) {
   if (indexes.currentIndex === cardIndex) {
     return 'active';
@@ -77,6 +78,7 @@ const Cards = () => {
     nextIndex: 1,
   });
 
+  // The logic here is split based on if we are at the end of the carousel or not. If we aren't, we set the previousIndex value to our currentIndex value and we increment currentIndex by 1. Setting the nextIndex is slightly more involved. We can use a ternary operator to check if adding 2 to our currentIndex will put us at the end of the carousel items. If it does, then the next item is actually the first item in our carousel. Otherwise, we add 2
   const handleCardTransition = useCallback(() => {
     // If we've reached the end, start again from the first card,
     // but carry previous value over
@@ -98,6 +100,7 @@ const Cards = () => {
     }
   }, [indexes.currentIndex]);
 
+  //  To do rotate on an interval, add a useEffect hook to call  handleCardTransition function every set up seconds
   useEffect(() => {
     const transitionInterval = setInterval(() => {
       handleCardTransition();
@@ -107,7 +110,7 @@ const Cards = () => {
   }, [handleCardTransition, indexes]);
 
   return (
-    <div className='card-carousel'>
+    <div className='card__carousel'>
       {cardItems.map((card, index) => (
         <div
           key={card.id}
