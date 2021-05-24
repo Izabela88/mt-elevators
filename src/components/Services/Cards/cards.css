@@ -4,7 +4,8 @@
   height: 400px;
   width: 735px;
   position: relative;
-  margin: 20% 40%;
+  top: 45%;
+  left: 40%;
 }
 
 .card__carousel button {
@@ -45,7 +46,7 @@ button:hover {
   opacity: 0;
   position: absolute;
   transform: scale(0.85) translateY(50px);
-  background-color: var(--color-primary-800);
+  background-color: var(--color-primary-50);
 }
 
 .card__heading {
@@ -67,6 +68,7 @@ button:hover {
   z-index: 20;
   padding: 8px;
   line-height: 49px;
+  filter: drop-shadow(1px 6px 4px rgb(0 0 0 / 40%));
 }
 
 .card__icon {
@@ -79,7 +81,6 @@ button:hover {
   top: 24px;
   left: 62%;
   z-index: 10;
-  /* background: rgb(40 37 3 / 14%); */
   padding: 25px;
   box-shadow: 0 27px 36px rgb(0 0 0 / 10%);
 }
@@ -90,7 +91,6 @@ button:hover {
   z-index: 20;
   opacity: 0.5;
   padding: 15px;
-  background-color: var(--color-primary-800);
 }
 
 .card.active {

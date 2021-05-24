@@ -13,7 +13,13 @@ export default function Services() {
       className={styles.services}
     >
       <div className={styles.container}>
-        <h1>OUR SERVICES</h1>
+        <div className={styles.text__box}>
+          <h1>OUR SERVICES</h1>
+          <p>
+            Take a look at our services. We make every effort to satisfy even
+            the most demanding customers.
+          </p>
+        </div>
         <Cards />
       </div>
     </section>
