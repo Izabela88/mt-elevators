@@ -49,7 +49,7 @@ const cardItems = [
   },
   {
     id: 8,
-    title: 'Realization With Certificate',
+    title: 'Realization With Certificates',
     image: icon8,
   },
   {
