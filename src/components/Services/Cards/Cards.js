@@ -3,11 +3,11 @@ import React, { useEffect, useCallback, useState } from 'react';
 
 import icon1 from '../../../assets/icons/icon7.svg';
 import icon2 from '../../../assets/icons/icon12.svg';
-import icon3 from '../../../assets/icons/icon5.svg';
+import icon3 from '../../../assets/icons/icon11.svg';
 import icon4 from '../../../assets/icons/icon6.svg';
 import icon5 from '../../../assets/icons/icon4.svg';
 import icon6 from '../../../assets/icons/icon3.svg';
-import icon7 from '../../../assets/icons/icon9.svg';
+import icon7 from '../../../assets/icons/icon15.svg';
 import icon8 from '../../../assets/icons/icon2.svg';
 import icon9 from '../../../assets/icons/icon13.svg';
 
@@ -111,12 +111,16 @@ const Cards = () => {
 
   return (
     <div className='card__carousel'>
+      <button onClick={handleCardTransition}>></button>
+
       {cardItems.map((card, index) => (
         <div
           key={card.id}
           className={`card ${determineClasses(indexes, index)}`}
         >
-          <h2>{card.title}</h2>
+          <div className='card__heading'>
+            <h2>{card.title}</h2>
+          </div>
           <div className='card__icon'>
             <img src={card.image} alt='Card Slide' />
           </div>

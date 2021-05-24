@@ -7,9 +7,7 @@ export default function Services() {
     <section id='services' className={styles.services}>
       <div className={styles.container}>
         <h1>OUR SERVICES</h1>
-        <div className={styles.cards__box}>
-          <Cards />
-        </div>
+        <Cards />
       </div>
     </section>
   );
