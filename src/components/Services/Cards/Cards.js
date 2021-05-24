@@ -54,7 +54,7 @@ const cardItems = [
   },
   {
     id: 9,
-    title: 'Passenger and Goods Lifts',
+    title: 'Passenger and Goods Elevators',
     image: icon9,
   },
 ];
