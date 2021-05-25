@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Choice.module.css';
-import img from '../../assets/images/img7.jpg';
+import img from '../../assets/images/img10.jpg';
 import Cards from './Cards/Cards';
 
 export default function Choice() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './About.module.css';
 import image from '../../assets/images/man.png';
-import image1 from '../../assets/images/img2.jpg';
+import image1 from '../../assets/images/img6.jpg';
 
 export default function AboutPage() {
   return (
