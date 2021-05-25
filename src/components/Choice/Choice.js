@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Choice.module.css';
 import img from '../../assets/images/img7.jpg';
+import Cards from './Cards/Cards';
 
 export default function Choice() {
   return (
@@ -17,6 +18,7 @@ export default function Choice() {
           <h1>Why Choose Us?</h1>
           <h2> It's simple!</h2>
         </div>
+        <Cards />
       </div>
     </section>
   );
