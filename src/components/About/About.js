@@ -5,11 +5,15 @@ import image1 from '../../assets/images/img2.jpg';
 
 export default function AboutPage() {
   return (
-    <section className={styles.about} id='about'>
+    <section
+      className={styles.about}
+      style={{
+        backgroundImage: `url(${image1})`,
+      }}
+      id='about'
+    >
+      <div className={styles.box}></div>
       <div className={styles.container}>
-        <div className={styles.box}>
-          <img src={image1} alt='' />
-        </div>
         <div className={styles.man__image}>
           <img src={image} alt='A Man' />
         </div>
