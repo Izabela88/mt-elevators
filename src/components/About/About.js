@@ -1,15 +1,19 @@
 import React from 'react';
 import styles from './About.module.css';
 import image from '../../assets/images/man.png';
-import image1 from '../../assets/images/img2.jpg';
+import image1 from '../../assets/images/img6.jpg';
 
 export default function AboutPage() {
   return (
-    <section className={styles.about} id='about'>
+    <section
+      className={styles.about}
+      style={{
+        backgroundImage: `url(${image1})`,
+      }}
+      id='about'
+    >
+      <div className={styles.box}></div>
       <div className={styles.container}>
-        <div className={styles.box}>
-          <img src={image1} alt='' />
-        </div>
         <div className={styles.man__image}>
           <img src={image} alt='A Man' />
         </div>

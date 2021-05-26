@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Services.module.css';
 import Cards from './Cards/Cards';
-import bgImg from '../../assets/images/img6.png';
+import bgImg from '../../assets/images/img7.jpg';
 
 export default function Services() {
   return (
