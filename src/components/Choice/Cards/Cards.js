@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Cards.module.css';
 import icon from '../../../assets/icons/icon-2.svg';
-import icon2 from '../../../assets/icons/icon-2.svg';
-import icon3 from '../../../assets/icons/icon-2.svg';
-import icon4 from '../../../assets/icons/icon-2.svg';
-import icon5 from '../../../assets/icons/icon-2.svg';
+import icon2 from '../../../assets/icons/icon-8.svg';
+import icon3 from '../../../assets/icons/icon-1.svg';
+import icon4 from '../../../assets/icons/icon-5.svg';
+import icon5 from '../../../assets/icons/icon-7.svg';
 
 const cardItems = [
   {
@@ -14,12 +14,12 @@ const cardItems = [
   },
   {
     id: 2,
-    title: 'Five Star Ratings',
+    title: 'Wide range of services',
     image: icon2,
   },
   {
     id: 3,
-    title: 'Many Statisfied Customers',
+    title: 'Statisfied Customers',
     image: icon3,
   },
   {
