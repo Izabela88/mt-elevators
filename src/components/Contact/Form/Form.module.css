@@ -1,0 +1,22 @@
+.form {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+  position: relative;
+  margin: 30px auto;
+}
+
+.input {
+  height: 50px;
+}
+
+.textarea {
+  height: 200px;
+}
+
+.btn {
+  height: 50px;
+  appearance: none;
+}
