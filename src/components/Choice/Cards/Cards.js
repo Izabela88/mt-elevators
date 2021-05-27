@@ -3,14 +3,14 @@ import styles from './Cards.module.css';
 import icon from '../../../assets/icons/icon-2.svg';
 import icon2 from '../../../assets/icons/icon-8.svg';
 import icon3 from '../../../assets/icons/icon-1.svg';
-import icon4 from '../../../assets/icons/icon-5.svg';
+import icon4 from '../../../assets/icons/184526.svg';
 import icon5 from '../../../assets/icons/icon-7.svg';
 
 const cardItems = [
   {
     id: 1,
-    title: 'Professional Team',
-    image: icon,
+    title: 'SafeContractor Approved',
+    image: icon4,
   },
   {
     id: 2,
@@ -24,8 +24,8 @@ const cardItems = [
   },
   {
     id: 4,
-    title: 'SafeContractor Approved',
-    image: icon4,
+    title: 'Professional Team',
+    image: icon,
   },
   {
     id: 5,
