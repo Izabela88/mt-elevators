@@ -38,7 +38,9 @@ export default function Contact() {
             <div className={styles.icon}>
               <img src={address} alt='' />
             </div>
-            <p>Office 222, 26 Cheering Lane, E20 1BD Londyn</p>
+            <p>
+              Office 222 <br /> 26 Cheering Lane <br /> E20 1BD London
+            </p>
           </div>
         </div>
         <div className={styles.text}>
