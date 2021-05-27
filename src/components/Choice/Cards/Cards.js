@@ -24,7 +24,7 @@ const cardItems = [
   },
   {
     id: 4,
-    title: 'SafeContractor',
+    title: 'SafeContractor Approved',
     image: icon4,
   },
   {
