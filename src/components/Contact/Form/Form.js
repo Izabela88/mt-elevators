@@ -25,7 +25,11 @@ export default function ContactForm() {
           isSubmitting: true,
         })}
       />
-      {errors.firstName && <p>Incorrect name!</p>}
+      {errors.firstName && (
+        <div className={styles.err}>
+          <p>Wrong Name!</p>
+        </div>
+      )}
 
       <input
         className={styles.input}
@@ -36,7 +40,11 @@ export default function ContactForm() {
           required: true,
         })}
       />
-      {errors.lastName && <p>Incorrect last name!</p>}
+      {errors.lastName && (
+        <div className={styles.err}>
+          <p>Wrong Name!</p>
+        </div>
+      )}
 
       <input
         className={styles.input}
@@ -46,7 +54,11 @@ export default function ContactForm() {
           required: true,
         })}
       />
-      {errors.message && <p>Required!</p>}
+      {errors.message && (
+        <div className={styles.err}>
+          <p>Required!</p>
+        </div>
+      )}
 
       <textarea
         placeholder='Your Message'
@@ -56,9 +68,15 @@ export default function ContactForm() {
           validate: (value) => value.length > 2 && value.length < 500,
         })}
       />
-      {errors.message && <p>Required!</p>}
+      {errors.message && (
+        <div className={styles.err}>
+          <p>Required!</p>
+        </div>
+      )}
 
-      <input disabled={!isDirty} className={styles.btn} type='submit' />
+      <button disabled={!isDirty} className={styles.btn} type='submit'>
+        Send
+      </button>
     </form>
   );
 }

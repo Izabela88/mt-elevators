@@ -17,15 +17,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 12px 30px rgb(239 226 67 / 26%);
+  box-shadow: 0 12px 30px rgb(0 0 0 / 61%);
 }
 
 .card h1 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  color: var(--color-primary-50);
+  color: var(--color-primary-800);
   font-family: 'Lato', sans-serif;
+  filter: drop-shadow(1px 1px 2px #000);
 }
 
 .card__icon {
