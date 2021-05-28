@@ -5,6 +5,7 @@ import Toolbar from './components/Navigation/Toolbar/Toolbar';
 import Services from './components/Services/Services';
 import Choice from './components/Choice/Choice';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Choice />
       <Contact />
+      <Footer />
     </Fragment>
   );
 }
