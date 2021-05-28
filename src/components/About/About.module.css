@@ -73,3 +73,20 @@
   position: absolute;
   right: 0;
 }
+
+.down__icon {
+  right: 15%;
+  bottom: 10%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.down__icon svg {
+  transition-duration: 0.3s;
+  font-size: 40px;
+  color: #fff;
+}
+
+.down__icon svg:hover {
+  color: var(--color-primary-800);
+}
