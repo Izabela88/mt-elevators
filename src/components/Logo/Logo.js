@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../../assets/images/logo.png';
+import logo1 from '../../assets/images/Logo.png';
 import styles from './Logo.module.css';
 import { Link } from 'react-scroll';
 

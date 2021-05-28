@@ -30,7 +30,6 @@
   border: none;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
-  background-image: linear-gradient(to bottom right, #f09343, #efc043);
   letter-spacing: 3px;
   transition-duration: 0.3s;
   box-shadow: 0 12px 30px rgb(0 0 0 / 40%);
