@@ -30,12 +30,13 @@
   }
 
   .navigation__item a {
-    color: var(--color-primary-700);
+    color: var(--color-primary-800);
     height: 100%;
     padding: 10px 20px;
     font-weight: bold;
     transition-duration: 0.3s;
     letter-spacing: 3px;
+    filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 60%));
   }
 
   .navigation__item a:hover,

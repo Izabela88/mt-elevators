@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './About.module.css';
 import image from '../../assets/images/man.png';
 import image1 from '../../assets/images/img6.jpg';
+import { DownOutlined } from '@ant-design/icons';
+import { Link } from 'react-scroll';
 
 export default function AboutPage() {
   return (
@@ -32,6 +34,11 @@ export default function AboutPage() {
             services!
           </p>
         </div>
+        <Link to='services' smooth='easeInOutCubic' duration={1500}>
+          <div className={styles.down__icon}>
+            <DownOutlined />
+          </div>
+        </Link>
       </div>
     </section>
   );
