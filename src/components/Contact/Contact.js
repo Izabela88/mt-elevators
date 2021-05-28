@@ -5,6 +5,8 @@ import img from '../../assets/images/imgbw.jpg';
 import email from '../../assets/icons/email.svg';
 import phone from '../../assets/icons/phone.svg';
 import address from '../../assets/icons/location.svg';
+import { UpSquareOutlined } from '@ant-design/icons';
+import { Link } from 'react-scroll';
 
 export default function Contact() {
   return (
@@ -49,6 +51,11 @@ export default function Contact() {
             www.flaticon.com
           </a>
         </div>
+        <Link to='home' smooth='easeInOutCubic' duration={2500}>
+          <div className={styles.top__btn}>
+            <UpSquareOutlined />
+          </div>
+        </Link>
       </div>
     </section>
   );
