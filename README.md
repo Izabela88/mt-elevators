@@ -1,4 +1,4 @@
-Deployed website link [https://mt-elevators.netlify.app]
+[Deployed website link](https://mt-elevators.netlify.app)
 
 # Getting Started with Create React App
 
